@@ -14,7 +14,7 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists*
 
 
-COPY /run_gotty.sh /file.sh
+COPY /file.sh /file.sh
 
 RUN chmod 744 /file.sh
 
