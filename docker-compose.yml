@@ -5,4 +5,4 @@ my-gotty:
   tty: true
   image: modenaf360/gotty:latest
   stdin_open: true
-  tty: true
+  tty: true                     #using bash TTY mode (pseudo-TTY)
